@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+  padding: 10;
+}
+
+div.navBar{
+  overflow: hidden;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+
