@@ -19,8 +19,42 @@ div.navBar{
   top: 0;
   height: 70px;
   width: 100%;
-  border-bottom: #f0f0f0;
+  border-bottom: #d0d0d0;
   border-bottom-style: solid;
-  border-bottom-width: 5px;
+  border-bottom-width: 2px;
+}
+
+div.logo {
+  position: relative;
+}
+
+#topLine {
+  height: 2.5vh;
+  width: 15vh;
+  border-radius: 1.25vh;
+  background: black;
+}
+
+#botLine {
+  height: 2.5vh;
+  width: 15vh;
+  border-radius: 1.25vh;
+  background: black;
+}
+
+#topDiagLine {
+  height: 10vh;
+  width: 2.5vh;
+  transform: rotate(45deg);
+  border-radius: 1.25vh;
+  background: black;
+}
+
+#botDiagLine {
+  height: 15vh;
+  width: 2.5vh;
+  transform: rotate(-45deg);
+  border-radius: 1.25vh;
+  background: black;
 }
 
