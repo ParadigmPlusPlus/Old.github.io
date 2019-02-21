@@ -42,16 +42,37 @@ div.bannerLogo {
   padding: 0;
   margin: 0 auto;
   display: block;
+  animation: fadeLeft 2000ms;
 }
 
 #bannerName {
   width: 90%;
   height: auto;
-  padding: 0;
+  padding-top: 2.5vh;
   margin: 0 auto;
   display: block;
+  animation: fadeRight 2000ms;
 }
 
+/* animations */
+@keyframes fadeLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
-
-/*11.3137085,   339.4112549*/
+@keyframes fadeRight {
+  0% {
+    opacity: 0;
+    transform: translateX(+20vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
