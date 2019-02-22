@@ -37,8 +37,9 @@ div.bannerLogo {
 }
 
 #bannerLogo {
-  width: 100%;
+  width: 90%;
   height: auto;
+  top: 0;
   padding: 0;
   margin: 0 auto;
   display: block;
@@ -46,9 +47,9 @@ div.bannerLogo {
 }
 
 #bannerName {
-  width: 90%;
+  width: 100%;
   height: auto;
-  padding-top: 2.5vh;
+  padding-top: 1.5vh;
   margin: 0 auto;
   display: block;
   animation: fadeRight 2000ms;
@@ -58,21 +59,31 @@ div.bannerLogo {
 @keyframes fadeLeft {
   0% {
     opacity: 0;
+    width: 67.5%;
     transform: translateX(-20vw);
   }
-  100% {
+  75% {
     opacity: 1;
+    width: 67.5%;
     transform: translateX(0);
+  }
+  100% {
+    width: 90%;
   }
 }
 
 @keyframes fadeRight {
   0% {
     opacity: 0;
+    width: 75%;
     transform: translateX(+20vw);
   }
-  100% {
+  75% {
     opacity: 1;
+    width: 75%;
     transform: translateX(0);
+  }
+  100% {
+    width: 100%;
   }
 }
