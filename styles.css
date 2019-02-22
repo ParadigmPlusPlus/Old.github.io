@@ -33,26 +33,32 @@ div.bannerLogo {
   position: relative;
   margin: 0 auto;
   width: 30vh;
-  top: 33%;
+  height: 20vh;
+  top: 29vh;
+}
+
+div.bannerName {
+  position: relative;
+  margin: 0 auto;
+  width: 30vh;
+  height: 10vh;
+  top: 29vh;
 }
 
 #bannerLogo {
   width: 90%;
   height: auto;
-  top: 0;
-  padding: 0;
   margin: 0 auto;
   display: block;
-  animation: fadeLeft 2000ms;
+  animation: fadeLeft 3000ms;
 }
 
 #bannerName {
   width: 100%;
   height: auto;
-  padding-top: 1.5vh;
   margin: 0 auto;
   display: block;
-  animation: fadeRight 2000ms;
+  animation: fadeRight 3000ms;
 }
 
 /* animations */
@@ -63,11 +69,12 @@ div.bannerLogo {
     transform: translateX(-20vw);
   }
   75% {
-    opacity: 1;
+    opacity: 0.5;
     width: 67.5%;
     transform: translateX(0);
   }
   100% {
+    opacity: 1;
     width: 90%;
   }
 }
@@ -79,11 +86,12 @@ div.bannerLogo {
     transform: translateX(+20vw);
   }
   75% {
-    opacity: 1;
+    opacity: 0.5;
     width: 75%;
     transform: translateX(0);
   }
   100% {
+    opacity: 1;
     width: 100%;
   }
 }
