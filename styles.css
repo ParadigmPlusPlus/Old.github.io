@@ -50,7 +50,7 @@ div.bannerName {
   height: auto;
   margin: 0 auto;
   display: block;
-  animation: fadeLeft 3000ms;
+  animation: fadeLeft 2000ms;
 }
 
 #bannerName {
@@ -58,7 +58,7 @@ div.bannerName {
   height: auto;
   margin: 0 auto;
   display: block;
-  animation: fadeRight 3000ms;
+  animation: fadeRight 2000ms;
 }
 
 /* animations */
@@ -66,12 +66,12 @@ div.bannerName {
   0% {
     opacity: 0;
     width: 67.5%;
-    transform: translateX(-20vw);
+    transform: translateX(-70vw) rotate(90deg);
   }
   75% {
     opacity: 0.5;
     width: 67.5%;
-    transform: translateX(0);
+    transform: translateX(0) rotate(0deg);
   }
   100% {
     opacity: 1;
@@ -83,12 +83,12 @@ div.bannerName {
   0% {
     opacity: 0;
     width: 75%;
-    transform: translateX(+20vw);
+    transform: translateX(+70vw) rotate(-90deg);
   }
   75% {
     opacity: 0.5;
     width: 75%;
-    transform: translateX(0);
+    transform: translateX(0) rotate(0deg);
   }
   100% {
     opacity: 1;
