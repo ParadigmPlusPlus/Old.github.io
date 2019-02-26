@@ -13,7 +13,11 @@ body{
 div.menu {
   position: fixed;
   overflow: hidden;
-
+  height: 50px;
+  width: 100px;
+  top: 35px;
+  left: 35px;
+  background: black;
 }
 
 div.bannerArea {
@@ -23,20 +27,13 @@ div.bannerArea {
   margin: 0 auto;
 }
 
-div.bannerLogo {
+div.logo {
   position: relative;
+  width : 40vh;
+  height: auto;
   margin: 0 auto;
-  width: 30vh;
-  height: 20vh;
-  top: 35vh;
-}
-
-div.bannerName {
-  position: relative;
-  margin: 0 auto;
-  width: 30vh;
-  height: 10vh;
-  top: 35vh;
+  top: 45%;
+  transform: translateY(-50%);
 }
 
 #bannerLogo {
@@ -51,12 +48,15 @@ div.bannerName {
   width: 100%;
   height: auto;
   margin: 0 auto;
+  margin-top: 3vh;
   display: block;
   animation: fadeRight 2000ms;
 }
 
-#test {
-  height: 100vh;
+#slogan {
+  position: relative;
+  text-align: center;
+  display: block;
 }
 
 /* animations */
@@ -92,4 +92,8 @@ div.bannerName {
     opacity: 1;
     width: 100%;
   }
+}
+
+@keyframes fadeUp {
+
 }
