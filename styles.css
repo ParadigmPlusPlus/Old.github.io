@@ -58,7 +58,7 @@ div.scrollDown {
   height: auto;
   margin: 0 auto;
   margin-top: 2vh;
-  margin-bottom: 10px;
+  margin-bottom: 2vh;
   display: block;
   animation: arrowAnimation 1000ms infinite;
 }
