@@ -46,6 +46,7 @@ div.scrollDown {
   left: 50vw;
   transform: translateX(-50%);
   animation: fadeUp 2000ms;
+  opacity: 0.75;
 }
 
 #slogan {
@@ -112,7 +113,7 @@ div.scrollDown {
     transform: translateY(+10vh) translateX(-50%);
   }
   100% {
-    opacity: 1;
+    opacity: 0.75;
     transform: translateY(+0vh) translateX(-50%);
   }
 }
