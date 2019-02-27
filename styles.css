@@ -52,17 +52,17 @@ div.scrollDown {
   display: block;
   text-align: center;
   font-family: "Comfortaa", sans-serif;
-  font-size: 16pt;
+  font-size: 12pt;
   margin: 0;
   color: #434345;
 }
 
 #downArrow {
-  width: 10%;
+  width: 5%;
   height: auto;
   margin: 0 auto;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
   display: block;
   animation: arrowAnimation 1000ms infinite;
 }
