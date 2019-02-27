@@ -1,23 +1,6 @@
-@font-face {
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-}
-
 body{
   margin: 0;
   font-family: Product Sans;
-}
-
-div.menu {
-  position: fixed;
-  overflow: hidden;
-  height: 50px;
-  width: 100px;
-  top: 35px;
-  left: 35px;
-  background: black;
 }
 
 div.bannerArea {
@@ -53,10 +36,31 @@ div.logo {
   animation: fadeRight 2000ms;
 }
 
+div.scrollDown {
+  position: fixed;
+  width: 40vh;
+  bottom: 0;
+  left: 50vw;
+  transform: translateX(-50%);
+  animation: fadeUp 2000ms;
+}
+
 #slogan {
-  position: relative;
-  text-align: center;
   display: block;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+  margin: 0;
+  color: #434345;
+}
+
+#downArrow {
+  width: 10%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 2vh;
+  margin-bottom: 10px;
+  display: block;
+  animation: arrowAnimation 1000ms infinite;
 }
 
 /* animations */
@@ -95,5 +99,28 @@ div.logo {
 }
 
 @keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(+10vh) translateX(-50%);
+  }
+  75% {
+    opacity: 0;
+    transform: translateY(+10vh) translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(+0vh) translateX(-50%);
+  }
+}
 
+@keyframes arrowAnimation {
+  0% {
+    transform: translateY(-25%);
+  }
+  50% {
+    transform: translateY(+25%);
+  }
+  100% {
+    transform: translateY(-25%);
+  }
 }
