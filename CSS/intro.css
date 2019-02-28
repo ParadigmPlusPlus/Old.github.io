@@ -1,5 +1,24 @@
 div.intro {
-    height: 100vh;
-    width: 100vw;
-    background: #434345;
+	height: 100vh;
+	width: 100vw;
+	background: #454545;
+}
+
+div.introText {
+  width: 50vw;
+  height: 100%;
+  background: #f9f9f9;
+}
+
+div.introText h1 {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  padding: 3vh;
+}
+
+div.introText p {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 3vh;
 }
