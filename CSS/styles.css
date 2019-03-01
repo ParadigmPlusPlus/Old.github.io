@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  font-family: 'Product Sans';
+  font-family: 'Open Sans';
 }
 
 div.page{
@@ -12,6 +12,7 @@ div.page{
 div.page h1 {
   font-family: 'Comfortaa', cursive;
   font-weight: bold;
+  font-size: 30pt;
 }
 
 div.bannerArea {
