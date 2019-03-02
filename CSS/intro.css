@@ -1,6 +1,5 @@
 div.intro {
 	height: 100vh;
-	width: 100vw;
   background: #f9f9f9
 }
 
@@ -16,7 +15,7 @@ div.introText h1 {
   
 }
 
-div.introText p {
+div.introText h2 {
   width: 90%;
   margin: 0 auto;
   margin-top: 3vh;
