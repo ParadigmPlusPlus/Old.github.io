@@ -3,20 +3,18 @@ div.intro {
   background: #f9f9f9
 }
 
-div.introText {
-  width: 50vw;
+#intro > div.column {
+  float: left;
+  width: 33.33%;
   height: 100%;
+  overflow: hidden;
 }
 
-div.introText h1 {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 4vh;
-  
+#intro > div.column h1{
+  position: relative;
+  top: 10vh;
+  text-align: center;
+  font-size: 40pt;
 }
 
-div.introText h2 {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 3vh;
-}
+
