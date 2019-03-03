@@ -25,13 +25,13 @@ div.page h1 {
   width: auto; 
   height: 100%; 
   right: 0;
-  opacity: 0.15; 
+  opacity: 0.15;
   animation: fade15 2000ms;
 }
 
 div.logo {
   position: relative;
-  width : 50vh;
+  width : 60vh;
   height: auto;
   margin: 0 auto;
   top: 45%;
