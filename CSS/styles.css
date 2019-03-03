@@ -4,6 +4,7 @@ body{
 }
 
 div.page{
+  overflow: hidden;
   height: 100vh;
   margin: 0;
 }
@@ -21,8 +22,9 @@ div.page h1 {
 
 #page0Back {
   position: absolute; 
-  width: 100%; 
+  width: auto; 
   height: 100%; 
+  right: 0;
   opacity: 0.15; 
   animation: fade15 2000ms;
 }
