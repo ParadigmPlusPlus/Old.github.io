@@ -4,12 +4,11 @@ body{
 }
 
 div.page{
-  overflow: hidden;
   height: 100vh;
   margin: 0;
 }
 
-div.page h1 {
+h1 {
   font-family: 'Overpass', sans-serif;
   font-style: bold;
 }
