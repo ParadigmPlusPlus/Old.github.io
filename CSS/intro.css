@@ -1,16 +1,14 @@
-div.intro {
-	height: 100vh;
-  background: #f9f9f9
-}
-
 #intro {
   overflow: hidden;
 }
 
 #intro h1{
-  position: absolute;
   text-align: center;
   font-size: 40pt;
+}
+
+#intro h2 {
+  font-family: 'Overpass', sans-serif;
 }
 
 

@@ -1,0 +1,135 @@
+#bannerArea {
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  #page0Back {
+    position: absolute; 
+    width: auto; 
+    height: 100%; 
+    right: 0;
+    opacity: 0.15;
+    animation: fade15 2000ms;
+  }
+  
+  div.logo {
+    position: relative;
+    width : 60vh;
+    height: auto;
+    margin: 0 auto;
+    top: 45%;
+    transform: translateY(-50%);
+  }
+  
+  #bannerLogo {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    animation: fadeLeft 2000ms;
+  }
+  
+  #bannerName {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3vh;
+    display: block;
+    animation: fadeRight 2000ms;
+  }
+  
+  div.scrollDown {
+    position: absolute;
+    width: 40vh;
+    bottom: 0;
+    left: 50vw;
+    transform: translateX(-50%);
+    animation: fadeUp 2000ms;
+    opacity: 1;
+  }
+  
+  #downArrow {
+    width: 7.5%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: block;
+    animation: arrowAnimation 1000ms infinite;
+  }
+  
+  /* animations */
+  @keyframes fadeLeft {
+    0% {
+      opacity: 0;
+      width: 67.5%;
+      transform: translateX(-70vw) rotate(90deg);
+    }
+    75% {
+      opacity: 0.5;
+      width: 67.5%;
+      transform: translateX(0) rotate(0deg);
+    }
+    100% {
+      opacity: 1;
+      width: 90%;
+    }
+  }
+  
+  @keyframes fadeRight {
+    0% {
+      opacity: 0;
+      width: 75%;
+      transform: translateX(+70vw) rotate(-90deg);
+    }
+    75% {
+      opacity: 0.5;
+      width: 75%;
+      transform: translateX(0) rotate(0deg);
+    }
+    100% {
+      opacity: 1;
+      width: 100%;
+    }
+  }
+  
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(+10vh) translateX(-50%);
+    }
+    75% {
+      opacity: 0;
+      transform: translateY(+10vh) translateX(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(+0vh) translateX(-50%);
+    }
+  }
+  
+  @keyframes arrowAnimation {
+    0% {
+      transform: translateY(-25%);
+    }
+    50% {
+      transform: translateY(+25%);
+    }
+    100% {
+      transform: translateY(-25%);
+    }
+  }
+  
+  @keyframes fade15 {
+    0% {
+      opacity: 0.04;
+    }
+    75% {
+      opacity: 0.04;
+    }
+    100% {
+      opacity: 0.15;
+    }
+  }
